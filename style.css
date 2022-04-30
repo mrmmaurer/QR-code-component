@@ -1,0 +1,43 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    height: 100vh; /* Marius */
+    display: flex; /* Marius */
+    justify-content: center; /* Marius */
+    align-items: center; /* Marius */
+}
+
+.tile {
+    background: hsl(0, 0%, 100%);
+    width: 345px;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    box-shadow: 0 5px 20px 5px rgba(52, 49, 49, 0.1);
+}
+
+.tile img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.tile h1 {
+    text-align: center;
+    font-size: 1.7rem;
+    color: hsl(218, 44%, 22%);
+}
+
+.tile p {
+    text-align: center;
+    font-size: 18px;
+    color: #8c8f94;
+    max-width: 19rem;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+.attribution {
+    position: absolute; /* Marius */
+    bottom: 15px; /* Marius */
+    text-align: center;
+}
